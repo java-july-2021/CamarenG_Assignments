@@ -16,6 +16,24 @@ System.out.println(a); // 1
 System.out.println(b); // 4
 System.out.println(c); // null
 
+//-----------------------------------------------------------------
+
+
+String word = "Hello";
+String subString = "llo";
+String notSubString = "world";
+Integer a2 = manipulator.getIndexOrNull(word, subString);
+Integer b2 = manipulator.getIndexOrNull(word, notSubString);
+System.out.println(a2); // 2
+System.out.println(b2); // null
+
+//------------------------------------------------------------------
+
+String word2 = manipulator.concatSubstring("Hello", 1, 2, "world");
+System.out.println(word2); // eworld
+
+
+
 
 
     }
