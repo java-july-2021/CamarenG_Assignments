@@ -1,11 +1,12 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+
 public class basicsTest {
     public static void main(String[] args) {
         basics count = new basics();
-        
-        int[] arrayX ={1, 3, 5, 7, -9, -13};
-        int[] arrayY = {4, 2, 7, 5, 9, 6, 2}; 
+
+        int[] arrayX = { 1, 3, 5, 7, -9, -13 };
+        int[] arrayY = { 4, 2, 7, 5, 9, 6, 2 };
 
         count.countUp();
         count.countOdd();
