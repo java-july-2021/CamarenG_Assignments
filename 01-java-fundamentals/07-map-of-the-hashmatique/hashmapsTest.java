@@ -5,6 +5,5 @@ public class hashmapsTest {
 
         hash.music();
 
-
     }
 }
