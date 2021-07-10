@@ -13,11 +13,11 @@ public class exceptions {
             try {
                 Integer castedValue = (Integer) list.get(i);
                 System.out.println(list.get(i));
-            } 
-            catch (Exception e) {
+            } catch (Exception e) {
                 System.out.println("Sorry");
                 System.out.println(e);
-                System.out.println(" error is at index: " + i + " and the value that cauese the error is: " + list.get(i));
+                System.out.println(
+                        " error is at index: " + i + " and the value that cauese the error is: " + list.get(i));
             }
         }
     }
