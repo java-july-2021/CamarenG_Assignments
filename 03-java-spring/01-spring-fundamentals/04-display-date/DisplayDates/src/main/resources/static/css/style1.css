@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:  200px, 200px, 200px, 200px;
+	padding: 0;
+	vertical-align: middle;
+}
+
+body{
+	margin: 200px, 200px, 200px, 200px;
+	padding: 0;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	vertical-align: middle;
+	color: #ff0000;
+}
